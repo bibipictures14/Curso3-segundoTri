@@ -1,9 +1,15 @@
+@import url("styles/header.css");
+
 :root {
-    --cor-de-fundo: #333333;
+    --cor-de-fundo: #000000;
+    --cinza: #363636;
 }
 body {
     background-color: var(--cor-de-fundo);
 }
-h1 {
-    background-color: #555555;
+img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
 }
