@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container {
     display: flex;
@@ -15,4 +16,27 @@
 }
 .container_imagem {
     padding: 1em;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--cinza);
+}
+.container_botao:checked ~ .lista-menu {
+    display: block;
+}
+.lista-menu_titulo,
+.lista-menu_item {
+    padding: 1em;
+}
+.lista-menu_titulo {
+    color: var(--vermelho);
+    font-weight: 700;
+}
+.lista-menu_link {
+    color: var(--preto);
+    text-transform: uppercase;
 }
