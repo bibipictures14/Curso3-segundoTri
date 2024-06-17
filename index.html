@@ -38,8 +38,8 @@
           <a href="#" class="lista-menu__link">Sobre nós</a>
         </li>
       </ul>
-      <img src="img/menu.png" alt="Logo da Atlant investimentos">
-      <img src="img/logo.png" alt="Logo da Atlant investimentos" class="container__imagem">
+      <img src="img/menu.png" alt="Logo da Games search" class="container__imagem">
+      <img src="img/logo.png" alt="Logo da Games search" class="container__imagem">
     </div>
     <div class="container">
       <a href="#"><img src="img/search.png" alt="Meus favoritos" class="container__imagem"></a>
@@ -47,7 +47,59 @@
       <a href="#"><img src="img/profile-user.png" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por qual jogo começar?</h2>
+    <p class="banner__texto">
+      Encontre informações de outros jogos no nosso site!
+    </p>
+    <input
+      type="search"
+      class="banner__pesquisa"
+      placeholder="Qual será seu próximo jogo?"
+    />
+  </section>
 
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais populares</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img src="img/Cartaz-tomb-raider.jpg" alt="Jogo Shadows of the Tomb Raider"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="img/Cartaz-Hellblade.jpeg" alt="Jogo Senua's Sacrifice"
+      />
+    </div>
+    <div class="swiper-slide">
+      <img src="img/Cartaz-Hellblade-ll.png" alt="Jogo Senua's Sacrifice 2"
+      />
+    </div>
+    <div class="swiper-slide">
+      <img src="img/Cartaz-Resident-Evil-Village.webp"  alt="Jogo Resident Evil Village"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="img/Cartaz-Horizon.webp" alt="Jogo Horizon Zero Dawn"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="img/Cartaz-Detroit_Become_Human.jpg" alt="Jogo Detroit Become Human"/>
+    </div>
+  </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
   
 </body>
 

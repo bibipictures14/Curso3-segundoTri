@@ -7,21 +7,19 @@
 
 :root {
     --cor-de-fundo: #000000;
-    --cinza: #363636;
+    --cinza: #222222;
     --preto: #000000;
+    --branco: #ffffff;
     --vermelho: #690000;
     --vermelho-degrade: linear-gradient(92.54deg, #690000 32.49%, #ca0e0e 165.37%);
     --fonte-principal: "Poppins";
   }
-  
-  img {
-    width: 25px;
-    height: 25px;
-    display: flex;
-    align-items: center;
+.container__imagem {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
 }
-
-
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
