@@ -61,6 +61,13 @@
     font-size: 14px;
 }
 
+.descrição__do-game {
+    font-size: 15px;
+}
+.descrição__imagem {
+    height: 180px;
+    width: 125px;
+}
 .botões__ancora {
     background-color: var(--vermelho);
     padding: 1em 2.2em;
