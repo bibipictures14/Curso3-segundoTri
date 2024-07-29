@@ -13,6 +13,7 @@
     --vermelho: #690000;
     --vermelho-degrade: linear-gradient(92.54deg, #690000 32.49%, #ca0e0e 165.37%);
     --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans" ;
   }
 .container__imagem {
   width: 25px;
