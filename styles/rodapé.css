@@ -21,6 +21,7 @@ hr {
     .rodapé {
         display: flex;
         justify-content: space-around;
+        color: var(--vermelho);
     }
 
     .lista-rodapé {
@@ -34,7 +35,7 @@ hr {
     }
 
     .lista-rodapé__link {
-        color: var(--cinza);
+        color: var(--vermelho);
         text-decoration: none;
         margin-left: 0.6em;
     }
