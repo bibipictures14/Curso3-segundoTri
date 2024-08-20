@@ -20,7 +20,7 @@
   <header class="cabeçalho">
     <div class="container">
       <input type="checkbox" id="menu" class="container__botao">
-      <label for="menu">
+      <label for="menu" class="container__rotulo">
         <span class="cabeçalho__menu-hamburguer container__imagem"></span>
       </label>
       <ul class="lista-menu">
@@ -41,7 +41,6 @@
           <a href="#" class="lista-menu__link">Sobre nós</a>
         </li>
       </ul>
-      <img src="img/menu.png" alt="Logo da Games search" class="container__imagem">
       <img src="img/logo.png" alt="Logo da Games search" class="container__imagem">
       <h1 class="container__titulo">
         <b class="container__titulo--negrito">Games</b>Search
@@ -84,23 +83,23 @@
       <p class="container__texto">Perfil</p>
     </div>
   </header>
+
   <section class="banner">
     <h2 class="banner__titulo">Já sabe por qual jogo começar?</h2>
-    <p class="banner__texto">
-      Encontre informações de outros jogos no nosso site!
-    </p>
-    <input
-      type="search"
-      class="banner__pesquisa"
-      placeholder="Qual será seu próximo jogo?"
-    />
+    <p class="banner__texto">Encontre informações de outros jogos no nosso site!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
   </section>
-
+ 
   <section class="carrossel">
     <h2 class="carrossel__titulo">Mais populares</h2>
-    <!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
@@ -162,6 +161,8 @@
 
   <section class=”carrossel”>
     <h2 class="carrossel__titulo">Todo mundo ama!</h2>
+
+    <div class="carrossel__container">
     <div class="swiper">
       <!-- Additional required wrapper -->
       <!-- If we need pagination -->
@@ -248,14 +249,16 @@
   </section>
 
   <section class="contato">
+    <div class="contato__descrição">
     <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
     <p class="contato__texto">
       Atualizações lançamentos e outros.
     </p>
-    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"/>
   </section>
 
-  <hr />
+  <hr/>
 
   <footer class="rodapé">
     <h2 class="rodapé__titulo">Games Search</h2>
@@ -263,39 +266,39 @@
     <ul class="lista-rodapé">
       <li class="lista-rodapé__titulo">Redes Sociais</li>
       <li class="lista-rodapé__item">
-        <img src="img/Youtube_logo.png" alt="YouTube" width="45" height="35"/>
+        <img src="img/youtube.png" alt="YouTube" width="35" height="35"/>
         <a href="#" class="lista-rodapé__link">Games Search</a>
       </li>
       <li class="lista-rodapé__item">
-        <img src="img/Instagram_icon.png.webp" alt="Instagram" width="45" height="45" />
+        <img src="img/instagram.png" alt="Instagram" width="35" height="35" />
         <a href="#" class="lista-rodapé__link">@Games_search</a>
       </li>
       <li class="lista-rodapé__item">
-        <img src="img/twitch-logo.png.webp" alt="Twitch" width="65" height="65"/>
+        <img src="img/twitch.png" alt="Twitch" width="35" height="35"/>
         <a href="#" class="lista-rodapé__link">Games Search</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/tik-tok.png" alt="TikTok" width="35" height="35"/>
+        <a href="#" class="lista-rodapé__link">@Games_Search</a>
       </li>
     </ul>
 
     <ul class="lista-rodapé">
       <li class="lista-rodapé__titulo">Plataformas</li>
       <li class="lista-rodapé__item">
-        <img src="img/Steam_Logo.png" alt="Steam" width="35" height="35"/>
+        <img src="img/logo-steam.png" alt="Steam" width="35" height="35"/>
         <a href="#" class="lista-rodapé__link">Steam</a>
       </li>
       <li class="lista-rodapé__item">
-        <img src="img/Epic_Games_logo.png" alt="Epic games" width="35" height="35"/>
-        <a href="#" class="lista-rodapé__link">Epic Games</a>
-      </li>
-      <li class="lista-rodapé__item">
-        <img src="img/EA-logo.png" alt="EA" width="65" height="45"/>
+        <img src="img/artes-eletronicas.png" alt="EA" width="35" height="35"/>
         <a href="#" class="lista-rodapé__link">EA</a>
       </li>
       <li class="lista-rodapé__item">
-        <img src="img/Xbox.png" alt="Xbox" width="35" height="35"/>
+        <img src="img/logotipo-do-xbox.png" alt="Xbox" width="35" height="33"/>
         <a href="#" class="lista-rodapé__link">Xbox</a>
       </li>
       <li class="lista-rodapé__item">
-        <img src="img/ps.com.png" alt="Ps" width="35" height="35"/>
+        <img src="img/logotipo-ps-dos-jogos.png" alt="Ps" width="35" height="35"/>
         <a href="#" class="lista-rodapé__link">Ps</a>
       </li>
     </ul>
